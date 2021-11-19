@@ -3,6 +3,9 @@ import './App.css';
 import './Header';
 import Header from './Header';
 import Home from './Home';
+import Checkout from './Checkout';
+import Canvas from './Canvas';
+import Login from './Login';
 import {
 	BrowserRouter as Router,
 	Route,
@@ -19,7 +22,17 @@ function App() {
           <Route path="/checkout">
              {/* COMPONENTS */}
             <Header />
-           <h1>This is the check out page </h1>
+          <Checkout/>
+          </Route>
+
+          <Route path="/canvas">
+              <Header />
+            <Canvas/>
+          </Route>
+
+          <Route path="/login">
+           
+            <Login/>
           </Route>
 
           {/* Default route should be always placed at the bottom */}

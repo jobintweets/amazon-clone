@@ -1,0 +1,7 @@
+.sample-canvas {
+    max-width: 550px;
+   
+    height: 800px;
+    width: 100%; 
+     border: 2px solid red;
+}
